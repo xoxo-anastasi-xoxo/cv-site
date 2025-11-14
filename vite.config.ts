@@ -5,7 +5,7 @@ import path from 'node:path'
 
 export default defineConfig({
   plugins: [vue(), svgLoader()],
-  base: 'cv-site',
+  base: '/cv-site/',
   resolve: {
     alias: { '@': path.resolve(__dirname, 'src') },
   },
