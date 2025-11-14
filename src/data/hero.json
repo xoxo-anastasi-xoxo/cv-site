@@ -1,0 +1,112 @@
+{
+  "title": "Anastasiia Kazantseva",
+  "subtitle": "Frontend & iOS Engineer",
+  "description": "Building intuitive user experiences with precision and care ❤",
+  "about": [
+    {
+      "type": "text",
+      "text": "I’m a curious engineer who never stopped learning. Over the years I’ve worked across multiple stacks in both web and mobile and discovered that good software is always about empathy, no matter the technology. I love exploring new tools and frameworks and noticing how each one slightly changes the way I think about problems."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "text",
+      "text": "I’ve worked in a large product company and on small side projects, and I’ve learned to balance structure with creativity. I’m emotional in the sense that I genuinely care about user experience, yet methodical and realistic enough to understand risks early and manage expectations clearly."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "text",
+      "text": "I enjoy both the visible and invisible sides of engineering — from building clean interfaces to making the development process smoother for everyone, and especially diving into strange bugs that challenge how I see the system. Those moments of discovery are what keep the work exciting for me."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "text",
+      "text": "Beyond code, I train in pole sport, do cover dance, crochet, and study languages — I enjoy having hobbies that challenge different sides of me. I also maintain "
+    },
+    {
+      "type": "link",
+      "text": "a leetcode streak ",
+      "link": "https://leetcode.com/u/xoxo_anastasi_xoxo/",
+      "image": "https://assets.leetcode.com/static_assets/marketing/500_new.gif"
+    },
+    {
+      "type": "text",
+      "text": " for the genuine comfort of small daily puzzles and the feeling of steady progress. "
+    },
+    {
+      "type": "break"
+    }
+  ],
+  "experience": [
+    {
+      "title": "2022 - 2025",
+      "subtitle": "iOS Developer · Kinopoisk",
+      "description": "· Worked across multiple iOS and tvOS applications, combining modern and legacy codebases (SwiftUI, UIKit, Objective-C, widgets, extensions). \n· Acted as a feature lead of multiple UI features, taking responsibility for technical design, planning, and end-to-end delivery. \n· Led the migration to Tuist, resolved complex configuration issues, and contributed fixes back to the open-source project. \n· Built a security-sensitive local network authentication flow between the iOS app and multiple TV apps (Smart TV, Android TV), ensuring reliability and an extensible architecture for future use cases. \n· Improved the HLS downloads module by refactoring undocumented legacy code and fixing stability issues, while collaborating on the design of a new, more maintainable architecture.",
+      "link": "https://apps.apple.com/bf/app/кинопоиск-фильмы-и-сериалы/id477718890",
+      "badges": ["SwiftUI", "Tuist", "Swift Concurrency", "AVFoundation", "CoreData"]
+    },
+    {
+      "title": "2021 - 2022",
+      "subtitle": "iOS Developer · Yandex Zen",
+      "description": "· Transitioned fully into iOS development, applying product thinking and UX sensitivity gained from frontend experience. \n· Worked on an iOS product functioning both as a standalone app and a shared SDK, ensuring robust architecture, backward compatibility, and smooth integration into other applications. \n· Established performance monitoring and automated testing practices, improving app reliability and development workflow.",
+      "link": "https://apps.apple.com/ru/app/дзен-новости-статьи-видео/id1343242452",
+      "badges": ["Swift", "UIKit", "Combine", "XCTest", "XCUITest", "SnapshotTesting"]
+    },
+    {
+      "title": "2018 - 2021",
+      "subtitle": "Frontend Developer · Yandex Dzen",
+      "description": "· Started as a junior developer and gradually took ownership of full feature lifecycles — from planning to release. \n· Built and maintained product features in cross-platform interfaces reaching millions of users across multiple surfaces — from desktop and mobile to third-party integrations (Opera, Cốc Cốc, etc.). \n· Contributed to frontend infrastructure: helped migrate the codebase to TypeScript, assisted in design system adoption, introduced SPA performance metrics and implemented several improvements based on their insights, and enhanced CI/CD and review automation. \n· Contributed to the early adoption of DivKit, helping migrate mobile apps to a server-driven UI and shaping the backend layout architecture. \n· Gained a strong ownership mindset and the ability to collaborate across multiple teams and technologies.",
+      "link": "https://dzen.ru/",
+      "badges": ["TypeScript", "React", "Node.js", "TeamCity", "DivKit", "SEO"]
+    },
+    {
+      "title": "Jun – Sep 2018",
+      "subtitle": "Frontend Developer Intern · Yandex Images",
+      "description": "· Gained my first hands-on experience as a frontend developer. \n· Worked under the guidance of a mentor, building and maintaining features in a production web application with automated tests, analytics, responsive layout, and product experiments.",
+      "link": "https://yandex.ru/images/",
+      "badges": ["HTML", "JavaScript", "CSS", "BEM-XJST", "Testplane"]
+    }
+  ],
+  "education": [
+    {
+      "title": "Mar - Aug 2024",
+      "subtitle": "Yandex Practicum",
+      "disclaimer": "Algorithms and Data Structures Course",
+      "description": "Revisited core algorithms and data structures, sharpening my problem-solving skills and reinforcing a mindset for building efficient, scalable solutions.",
+      "link": "https://practicum.yandex.ru/"
+    },
+    {
+      "title": "Sep - Dec 2021",
+      "subtitle": "Yandex School of Data Analysis",
+      "disclaimer": "Computer architecture and operating systems",
+      "description": "Completed an in-depth course on operating system architecture and low-level programming. Worked with memory management, process scheduling, and synchronization mechanisms.",
+      "link": "https://dataschool.yandex.com/"
+    },
+    {
+      "title": "Sep - Dec 2017",
+      "subtitle": "Tinkoff Fintech School",
+      "disclaimer": "Frontend Developer (React)",
+      "description": "Completed an intensive course focused on modern web development. Gained hands-on experience with React, component-based architecture, and frontend project workflows.",
+      "link": "https://education.tbank.ru/study/"
+    },
+    {
+      "title": "2016-2020",
+      "subtitle": "National Research University Higher School of Economics (HSE)",
+      "disclaimer": "Bachelor’s Degree in Software Engineering, Minor in Data Analysis",
+      "description": "Built a broad foundation in computer science and software development, gaining exposure to multiple programming domains and fundamentals of project management.",
+      "link": "https://www.hse.ru/en/"
+    }
+  ],
+  "projects": [
+    {
+      "title": "2020-2021",
+      "subtitle": "University Project Portal · National Research University Higher School of Economics (HSE)",
+      "description": "Developed an internal university platform connecting IT companies and students for project-based collaboration.\n Co-designed the domain model and led the frontend, shipping multiple features (e.g., a dynamic form-builder for evolving legal requirements) and ensuring transparent workflows for students, companies, and administrators."
+    }
+  ]
+}

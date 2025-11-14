@@ -1,0 +1,27 @@
+@use '@/styles/variables' as *;
+
+@mixin apply-to-mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin apply-to-not-mobile {
+  @media (min-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin apply-to-desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin hide-scrollbar {
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge (Blink / WebKit) */
+  }
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE / old Edge */
+}

@@ -1,0 +1,42 @@
+@use '@/styles/variables' as *;
+@use '@/styles/mixins' as *;
+
+html,
+body,
+main,
+#app {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family:
+          Inter,
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          Arial,
+          sans-serif;
+  color: $primary;
+  background: $bg;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  background: none;
+  outline: none;
+}
+a:focus, a:active {
+  outline: none;
+}
+
+::selection {
+  background: $accent;
+  color: $bg;
+}
+::-moz-selection {
+  background: $accent;
+  color: $bg;
+}
