@@ -27,6 +27,8 @@ defineExpose({
   margin: 0 auto;
   max-width: 1280px;
 
+  @include hide-scrollbar;
+
   @include apply-to-mobile {
     padding: 0 1rem;
   }
@@ -44,7 +46,6 @@ defineExpose({
     min-width: 0;
     overflow: visible;
     box-sizing: border-box;
-    @include hide-scrollbar;
 
     @include apply-to-desktop {
       overflow-y: auto;

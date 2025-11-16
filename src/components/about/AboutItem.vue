@@ -56,10 +56,11 @@ const LINK_TYPE = 'link' as const
     @include apply-to-not-mobile {
       transition: transform 0.25s ease;
       transform-origin: center center;
+      position: relative;
+      z-index: 20;
 
       &:hover {
         transform: scale(5);
-        z-index: 10;
       }
     }
   }
