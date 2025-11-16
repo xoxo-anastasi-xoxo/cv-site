@@ -83,14 +83,14 @@
     {
       "title": "Sep - Dec 2021",
       "subtitle": "Yandex School of Data Analysis",
-      "disclaimer": "Computer architecture and operating systems",
+      "disclaimer": "Computer Architecture and Operating Systems Course",
       "description": "Completed an in-depth course on operating system architecture and low-level programming. Worked with memory management, process scheduling, and synchronization mechanisms.",
       "link": "https://dataschool.yandex.com/"
     },
     {
       "title": "Sep - Dec 2017",
       "subtitle": "Tinkoff Fintech School",
-      "disclaimer": "Frontend Developer (React)",
+      "disclaimer": "Frontend Developer Course (React)",
       "description": "Completed an intensive course focused on modern web development. Gained hands-on experience with React, component-based architecture, and frontend project workflows.",
       "link": "https://education.tbank.ru/study/"
     },

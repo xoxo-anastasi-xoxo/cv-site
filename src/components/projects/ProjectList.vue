@@ -7,7 +7,7 @@ let props = defineProps<{ title: string; items: Project[] }>()
 </script>
 
 <template>
-  <div class="project-list">
+  <div :id="props.title" class="project-list">
     <MenuItemMobile :title="props.title" />
     <ProjectCard v-for="project in props.items" :key="project.subtitle" v-bind="project" />
   </div>
@@ -15,9 +15,14 @@ let props = defineProps<{ title: string; items: Project[] }>()
 
 <style scoped lang="scss">
 @use '@/styles/mixins' as *;
+.project-list {
+  @include apply-to-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-@include apply-to-desktop {
-  .project-list {
+  @include apply-to-desktop {
     &:hover > * {
       opacity: 0.6;
     }

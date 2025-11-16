@@ -17,6 +17,7 @@
 @use '@/styles/variables' as *;
 .footer {
   padding: 1rem;
+  margin-top: 2rem;
 
   font-size: 0.875rem;
   line-height: 1.25rem;

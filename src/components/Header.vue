@@ -12,7 +12,7 @@ let props = defineProps<{
 
 <template>
   <div class="header">
-    <a class="header__title" href="/">{{ props.title }}</a>
+    <a class="header__title" href="/cv-site/">{{ props.title }}</a>
     <h2 class="header__subtitle">{{ props.subtitle }}</h2>
     <p class="header__description">{{ props.description }}</p>
     <div class="header__menu">

@@ -5,7 +5,7 @@ let props = defineProps<{
 </script>
 
 <template>
-  <a :id="props.title" class="menu-item-mobile" :href="`##${props.title}`">{{ props.title }}</a>
+  <a class="menu-item-mobile" :href="`##${props.title}`">{{ props.title }}</a>
 </template>
 
 <style scoped lang="scss">

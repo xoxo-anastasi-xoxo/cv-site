@@ -7,7 +7,7 @@ let props = defineProps<{ title: string; items: AboutItemType[] }>()
 </script>
 
 <template>
-  <div class="about">
+  <div :id="props.title" class="about">
     <MenuItemMobile :title="props.title" />
     <AboutItem v-for="(item, index) in props.items" :key="index" v-bind="item" />
   </div>
